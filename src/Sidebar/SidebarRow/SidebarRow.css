@@ -1,0 +1,31 @@
+.sidebarrow
+{
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.sidebarrow:hover
+{
+    background-color: rgba(53, 52, 52, 0.479);
+    cursor: pointer;
+}
+
+.sidebarrow.selected
+{
+    background-color: rgba(82, 82, 82, 0.884);
+}
+
+.sbr_icon
+{
+color: rgb(214, 214, 214);
+font-size: large !important;
+}
+
+.sbr_title
+{
+    flex: 1;
+    margin-left: 1rem;
+    font-weight: 400;
+    font-size: .9rem;
+}
