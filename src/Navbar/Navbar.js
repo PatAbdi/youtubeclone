@@ -8,6 +8,7 @@ import { Avatar }  from '@mui/material';
 // import { Link } from 'react-router-dom';
 import './Navbar.css';
 
+
 const Navbar = () => {
   return (
     <div className='navbar'>
@@ -15,7 +16,9 @@ const Navbar = () => {
 
         <MenuIcon className='navmenu'/>
 
+       
         <h1 className='nb_menutitleh1'>LicoreTube</h1>
+       
 
         </div>
 

@@ -12,11 +12,6 @@ const YouVideos = ({image, title, channel, views, timestamp, channelimage}) => {
         
         </div>
 
-        {/* <div className='youvideos_imgtime'>
-        <span >3:30pm</span>
-        </div> */}
-       
-
         <div className='youvideos_info'>
             <div className='youvideos_avat'>
                 <Avatar className='youvid_avatar' alt={channel} src={channelimage} />
