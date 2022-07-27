@@ -1,11 +1,14 @@
 import React from 'react';
 import './YouBody.css';
 import YouVideos from './YouVideos/YouVideos';
+import { Link } from 'react-router-dom';
 
 const YouBody = () => {
   return (
     <div className='youbody'>
        <div className='youvid_videos'>
+        <Link to = '/WatchVideo:id'>
+       
       <YouVideos 
 
       title="Become a 3D Character Creator in 30 minutes."
@@ -17,6 +20,10 @@ const YouBody = () => {
        
       />
 
+</Link>
+
+
+<Link to = '/WatchVideo:id'>
 <YouVideos 
 
 title="Dark Cyberpunk / EDM / Midstep Ultra Bass Mix 'OBSCURA vol.12'."
@@ -27,6 +34,8 @@ channel="CyberPunkk"
 image="assets/cyberpunk-2077-red-screen-4k-wf.jpg"
  
 />
+
+</Link>
 
 <YouVideos 
 

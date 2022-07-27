@@ -1,0 +1,56 @@
+.watchvids
+{
+    display: flex;
+    margin-top: 1rem;
+    
+}
+
+
+.watchvids_img
+{
+    width: 250px;
+    height: 150px; 
+    background-position: center;
+    display: flex;
+    border-radius: .2rem;
+    box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, .1);  
+}
+
+
+.watchvids_img > img
+{
+    width: 100%;
+    height: 100%;
+    border-radius: .1rem;   
+}
+
+.watchvids_info
+{
+   
+    display: flex;
+
+    margin-top: 10px;
+    padding-right: 20px;
+    color: white;
+    padding-left: 12px;
+    
+}
+
+.watchvids_texts > h4
+{
+    font-size: .8rem;
+    margin-bottom: 5px;
+    
+}
+
+.watchvids_texts > span
+{
+    font-size: .8rem;
+    font-weight: 300;
+}
+
+.watchvids_texts > p
+{
+    font-size: .8rem;
+    font-weight: 300;
+}

@@ -24,7 +24,7 @@ const Sidebar = () => {
     
       
     <div className='sidebar'>
-  <Scrollbars style={{width:250, height: 900}}>
+  <Scrollbars style={{width:250, height: 1000}}>
       <div>
 
       

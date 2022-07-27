@@ -1,0 +1,22 @@
+
+.watchvideo-items
+{
+    display: flex;
+    justify-content: center;
+}
+.watchvideo-item-view
+{
+    flex: .7;
+    height: auto;
+    margin: 1rem 3rem;
+}
+
+
+.watchvideo-item-suges
+{
+    flex: .3;
+    height: auto;
+    margin: 1rem 2rem;
+   
+    
+}

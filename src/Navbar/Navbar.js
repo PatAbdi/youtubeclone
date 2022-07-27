@@ -5,7 +5,7 @@ import VideoCallIcon from '@mui/icons-material/VideoCall';
 import AppsIcon from '@mui/icons-material/Apps';
 import NotificationsNoneIcon from '@mui/icons-material/NotificationsNone';
 import { Avatar }  from '@mui/material';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './Navbar.css';
 
 
@@ -16,10 +16,7 @@ const Navbar = () => {
 
         <MenuIcon className='navmenu'/>
 
-       
-        <h1 className='nb_menutitleh1'>LicoreTube</h1>
-       
-
+        <Link to='/' className='nb_menutitleh1'>LicoreTube</Link>
         </div>
 
         <div className='nb-search'>

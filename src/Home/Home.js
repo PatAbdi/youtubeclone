@@ -5,9 +5,10 @@ import './Home.css';
 
 export const Home = () => {
   return (
-    <div className='app_body'>
-  <Sidebar />
-  <YouBody />
+ <div className='app_body'>
+    <Sidebar />
+    <YouBody />  
   </div>
+   
   )
 }
