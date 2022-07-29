@@ -1,0 +1,62 @@
+.watchcomments
+{
+    color: white;
+}
+
+.watchvid-det-views > span
+{
+    padding-right: 10px;
+
+}
+
+
+.watchvid-det-views-likes
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.watchvid-det-likes-icons
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.likes-icon
+{
+    display: flex;
+    align-items: center;
+    
+}
+
+.likes-icon > span
+{
+    padding: 10px;
+}
+
+
+.like-icons
+{
+    padding-left: 2rem;
+}
+
+
+
+/* WatchCom File */
+
+.watchcom-img
+{
+    width: 350px;
+    height: 200px;
+}
+
+
+.watchcom-img > img
+{
+    width: 100%;
+    height: 100%;
+    border-radius: .2rem;
+}

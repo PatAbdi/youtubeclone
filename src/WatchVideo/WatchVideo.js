@@ -2,6 +2,8 @@ import React from 'react';
 import './WatchVideo.css';
 import { Link } from 'react-router-dom';
 import WatchViditem from './WatchVidItem/WatchViditem';
+import WatchComments from './WatchComments/WatchComments';
+import Watchcom from './WatchComments/Watchcom';
 
 const WatchVideo = () => {
   return (
@@ -10,7 +12,8 @@ const WatchVideo = () => {
             <div className='watchvideo-items'>
 
                 <div className='watchvideo-item-view'>
-                <iframe width="1280" height="720" 
+                    <div>
+                    <iframe width="1280" height="720" 
                 src="https://www.youtube.com/embed/KmJZdfAWhWk" 
                 title="Dark Cyberpunk / EBM / Midtempo Bass Mix 'OBSCURA vol.2'" 
                 frameborder="0"
@@ -18,8 +21,45 @@ const WatchVideo = () => {
                  allowfullscreen>
 
                 </iframe>
+                    </div>
+                    <div className='watchvideo-item-view-comments'>
+                        <WatchComments
+                        Title="Dark Cyberpunk / EBM / Midtempo Bass Mix 'OBSCURA vol.2'" 
+                        Views="3,398,234 Views"
+                        Timestamp=" January 2,2021"
+                        Channelimage="assets/Pascaline.png"
+                        Channel="PatPrimeDesigns"
+                        Comments=""
+                        Likes="4.6K"
+                        Share
+                        Save
+                        Report
+                        HashTags
+                        
+                        />
+
+
+                    <Watchcom
+                        Timestamp=" January 2,2021"
+                        ChannelImage="assets/Pascaline.png"
+                        Channel="PatPrimeDesigns"
+                        Comment="
+                        If you still come here to remember what a good song is, congratulations, you are in the right place."
+                        Likes="4.6K"
+                        />
+
+
+
+                    </div>
+                
 
                 </div>
+
+
+
+
+
+
 
                 <div className='watchvideo-item-suges'>
 
