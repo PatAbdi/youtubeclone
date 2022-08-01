@@ -8,7 +8,7 @@ import Watchcom from './WatchComments/Watchcom';
 const WatchVideo = () => {
   return (
     <div className='watchvideo'>
-        <div className='Container'>
+        <div className='wrapper'>
             <div className='watchvideo-items'>
 
                 <div className='watchvideo-item-view'>
@@ -46,6 +46,7 @@ const WatchVideo = () => {
                         Comment="
                         If you still come here to remember what a good song is, congratulations, you are in the right place."
                         Likes="4.6K"
+                        Subscribers = "589K Subscribers"
                         />
 
 
@@ -54,11 +55,6 @@ const WatchVideo = () => {
                 
 
                 </div>
-
-
-
-
-
 
 
                 <div className='watchvideo-item-suges'>

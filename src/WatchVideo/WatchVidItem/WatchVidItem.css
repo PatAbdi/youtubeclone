@@ -54,3 +54,20 @@
     font-size: .8rem;
     font-weight: 300;
 }
+
+
+
+
+
+
+@media screen and (max-width:1000px) 
+{
+    .watchvids_img
+{
+    width: 250px;
+    height: 150px; 
+   
+   
+   
+}
+}
