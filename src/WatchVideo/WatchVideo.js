@@ -43,8 +43,9 @@ const WatchVideo = () => {
                         Timestamp=" January 2,2021"
                         ChannelImage="assets/Pascaline.png"
                         Channel="PatPrimeDesigns"
-                        Comment="
-                        If you still come here to remember what a good song is, congratulations, you are in the right place."
+                        CommentNo = "300"
+                        Comments="
+                        If you still come here to remember what a good song is, congratulations."
                         Likes="4.6K"
                         Subscribers = "589K Subscribers"
                         />
